@@ -66,8 +66,7 @@
             android:gravity="center"
             android:clickable="true"
             android:focusable="true"
-            android:textSize="16dip"
-            android:onClick="signUpForm"/>
+            android:textSize="16dp"/>
 
     </LinearLayout>
 </ScrollView>
