@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "246083841703",
+    "firebase_url": "https://farmmlai-ca4cd.firebaseio.com",
+    "project_id": "farmmlai-ca4cd",
+    "storage_bucket": "farmmlai-ca4cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:246083841703:android:e2609302e6334ae7",
+        "android_client_info": {
+          "package_name": "com.example.android.farmmlai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "246083841703-flj8hmfuolp2cp3s36l6eeq3i5edcgj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.farmmlai",
+            "certificate_hash": "ec9b8f3efa8d747f7a0e5a08496246746e8ca770"
+          }
+        },
+        {
+          "client_id": "246083841703-5lkssj6sha9uupqa470fu5sgnarnts19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVUJIfvCzLE46EWG_LmVcJWzubdI3nW4Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "246083841703-5lkssj6sha9uupqa470fu5sgnarnts19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
