@@ -3,6 +3,7 @@ package com.example.android.farmmlai;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,17 +13,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        public void loginAct(View v)
-        {
+    }
+
+    public void loginAct(View view) {
+
             Intent intent = new Intent(MainActivity.this, Login.class);
             startActivity(intent);
-        }
 
+    }
 
-        public void signupAct(View v)
-        {
+    public void signupAct(View view) {
+
             Intent intent = new Intent(MainActivity.this, Signup.class);
             startActivity(intent);
-        }
+
     }
 }

@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Signup extends AppCompatActivity {
 
@@ -23,7 +24,8 @@ public class Signup extends AppCompatActivity {
     Button btnregister;
     ProgressBar progressbar;
 
-    private FirebaseAuth firebaseAuthObj;
+   private FirebaseAuth firebaseAuthObj;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,7 +38,7 @@ public class Signup extends AppCompatActivity {
         btnregister = (Button) findViewById(R.id.btn_signup);
         progressbar = (ProgressBar) findViewById(R.id.progressBar);
 
-        firebaseAuthObj = FirebaseAuth.getInstance();
+       firebaseAuthObj = FirebaseAuth.getInstance();
 
 
         btnregister.setOnClickListener(new View.OnClickListener(){

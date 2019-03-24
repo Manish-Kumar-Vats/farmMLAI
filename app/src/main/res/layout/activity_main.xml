@@ -5,23 +5,31 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    android:padding="10dp">
 
     <Button
         android:id="@+id/login"
-        android:layout_marginTop="200dp"
-        android:layout_marginLeft="100dp"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
         android:layout_height="wrap_content"
         android:text="Login"
-        android:onClick="loginAct"/>
+        android:onClick="loginAct"
+        android:background="@drawable/button_rounded"/>
 
     <Button
         android:layout_below="@id/login"
         android:id="@+id/signup"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="100dp"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
         android:layout_height="wrap_content"
         android:text="SignUp"
-        android:onClick="signupAct"/>
+        android:onClick="signupAct"
+        android:background="@drawable/button_rounded"/>
+</LinearLayout>
+
 </RelativeLayout>
